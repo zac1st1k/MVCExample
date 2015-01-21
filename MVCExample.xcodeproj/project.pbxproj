@@ -14,6 +14,8 @@
 		11ACCB6D1A6F8C3C003D1E2B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11ACCB6C1A6F8C3C003D1E2B /* Images.xcassets */; };
 		11ACCB701A6F8C3C003D1E2B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11ACCB6E1A6F8C3C003D1E2B /* LaunchScreen.xib */; };
 		11ACCB7C1A6F8C3C003D1E2B /* MVCExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11ACCB7B1A6F8C3C003D1E2B /* MVCExampleTests.m */; };
+		11ACCB871A6F8D11003D1E2B /* XZZTaskCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 11ACCB861A6F8D11003D1E2B /* XZZTaskCell.m */; };
+		11ACCB8A1A6F976D003D1E2B /* XZZTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 11ACCB891A6F976D003D1E2B /* XZZTask.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		11ACCB751A6F8C3C003D1E2B /* MVCExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVCExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		11ACCB7A1A6F8C3C003D1E2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11ACCB7B1A6F8C3C003D1E2B /* MVCExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVCExampleTests.m; sourceTree = "<group>"; };
+		11ACCB851A6F8D11003D1E2B /* XZZTaskCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZZTaskCell.h; sourceTree = "<group>"; };
+		11ACCB861A6F8D11003D1E2B /* XZZTaskCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZZTaskCell.m; sourceTree = "<group>"; };
+		11ACCB881A6F976D003D1E2B /* XZZTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZZTask.h; sourceTree = "<group>"; };
+		11ACCB891A6F976D003D1E2B /* XZZTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZZTask.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +89,13 @@
 			children = (
 				11ACCB631A6F8C3C003D1E2B /* AppDelegate.h */,
 				11ACCB641A6F8C3C003D1E2B /* AppDelegate.m */,
+				11ACCB691A6F8C3C003D1E2B /* Main.storyboard */,
 				11ACCB661A6F8C3C003D1E2B /* ViewController.h */,
 				11ACCB671A6F8C3C003D1E2B /* ViewController.m */,
-				11ACCB691A6F8C3C003D1E2B /* Main.storyboard */,
+				11ACCB851A6F8D11003D1E2B /* XZZTaskCell.h */,
+				11ACCB861A6F8D11003D1E2B /* XZZTaskCell.m */,
+				11ACCB881A6F976D003D1E2B /* XZZTask.h */,
+				11ACCB891A6F976D003D1E2B /* XZZTask.m */,
 				11ACCB6C1A6F8C3C003D1E2B /* Images.xcassets */,
 				11ACCB6E1A6F8C3C003D1E2B /* LaunchScreen.xib */,
 				11ACCB5F1A6F8C3C003D1E2B /* Supporting Files */,
@@ -221,7 +231,9 @@
 			files = (
 				11ACCB681A6F8C3C003D1E2B /* ViewController.m in Sources */,
 				11ACCB651A6F8C3C003D1E2B /* AppDelegate.m in Sources */,
+				11ACCB8A1A6F976D003D1E2B /* XZZTask.m in Sources */,
 				11ACCB621A6F8C3C003D1E2B /* main.m in Sources */,
+				11ACCB871A6F8D11003D1E2B /* XZZTaskCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
